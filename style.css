@@ -49,7 +49,7 @@ h1 {
 
 .title {
     display: flex;
-    padding: 5em 5em;
+    padding: 2em 5em;
     flex-direction: row;
     margin-bottom: 10em;
     gap: 5em;
@@ -105,10 +105,16 @@ h2 {
     color: #1F2937;
 }
 
+.ctabackground {
+    background-color: white;
+}
+
 .cta {
     background-color: #3882F6;
     display: flex;
-    padding: 0 5em;
+    margin: 5em 5em;
+    padding: 3em;
+    border-radius: 30px;
 }
 
 .cta1, .cta2 {
@@ -128,8 +134,9 @@ h2 {
     flex-flow: row wrap;
     background-color: #E5E7EB;
     gap: 1em;
-    padding: 5em 8em;
+    padding: 8em 8em;
     justify-content: space-between;
+    align-items: center;
 }
 
 .quoteauthor {
