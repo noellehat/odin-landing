@@ -80,8 +80,15 @@ h2 {
     margin-bottom: 4em;
 }
 
+.bandmembers {
+    border-radius: 100%;
+    border-style: solid;
+    border-color: #3882F6;
+}
+
 .bandbox {
     display: flex;
+    gap: 5em;
 }
 
 .quotetext {
@@ -108,7 +115,7 @@ h2 {
 
 .quote {
     background-color: #E5E7EB;
-    padding: 0 5em;
+    padding: 5em 5em;
 }
 
 .footer {
