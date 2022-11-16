@@ -49,10 +49,12 @@ h1 {
 
 .title {
     display: flex;
-    padding: 0 5em;
-    gap: 0.5em;
-    flex: 1;
+    padding: 5em 5em;
     flex-direction: row;
+    margin-bottom: 10em;
+    gap: 5em;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .kessokubox {
@@ -67,6 +69,7 @@ h1 {
 
 .kessokuband {
     max-width: 100%;
+    border-radius: 30px;
 }
 
 h2 {
