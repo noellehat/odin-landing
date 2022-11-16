@@ -29,7 +29,6 @@ button {
     border-color: #3882F6;
     border-radius: 10px;
     font-weight: bold;
-    max-width: 1.5em;
 }
 
 .signup2 {
@@ -179,4 +178,5 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 2em;
 }
