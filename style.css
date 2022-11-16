@@ -13,6 +13,7 @@ img {
 ul {
     list-style: none;
     display: flex;
+    gap: 1em;
 }
 
 a {
@@ -23,6 +24,9 @@ a {
 button {
     background-color: #3882F6;
     color: #F9FAF8;
+    max-width: 10em;
+    max-height: 2em;
+    font-weight: bold;
 }
 
 h3 {
@@ -47,6 +51,7 @@ h1 {
     padding: 0 5em;
     flex-wrap: wrap;
     justify-content: space-between;
+    gap: 0.5em;
 }
 
 
@@ -67,7 +72,16 @@ h2 {
 
 .bandinfo {
     display: flex;
+    flex-direction: column;
     padding: 0 5em;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4em;
+}
+
+.bandbox {
+    display: flex;
 }
 
 .quotetext {
