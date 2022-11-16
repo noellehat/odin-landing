@@ -6,3 +6,34 @@ h3 {
     font-size: 24px;
     color: #F9FAF8;
 }
+
+h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.title2 {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+
+.quotetext {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.cta1, .cta2 {
+    color: #F9FAF8;
+}
+
+.cta1 {
+    font-size: 18px;
+}
