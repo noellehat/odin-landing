@@ -24,9 +24,15 @@ a {
 button {
     background-color: #3882F6;
     color: #F9FAF8;
-    max-width: 10em;
-    max-height: 2em;
+    padding: 0.5em 1.5em;
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 10px;
     font-weight: bold;
+}
+
+.signup2 {
+    border-color: #F9FAF8;
 }
 
 h3 {
@@ -119,8 +125,14 @@ h2 {
     background-color: #3882F6;
     display: flex;
     margin: 5em 5em;
-    padding: 3em;
+    padding: 3em 3em;
     border-radius: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ctatext {
+    flex-direction: column;
 }
 
 .cta1, .cta2 {
@@ -129,6 +141,7 @@ h2 {
 
 .cta1 {
     font-size: 18px;
+    font-weight: bold;
 }
 
 .hero, .footer{
@@ -140,7 +153,7 @@ h2 {
     flex-flow: row wrap;
     background-color: #E5E7EB;
     gap: 1em;
-    padding: 8em 8em;
+    padding: 8em 10em;
     justify-content: space-between;
     align-items: center;
 }
