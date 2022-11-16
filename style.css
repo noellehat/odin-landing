@@ -2,6 +2,11 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
 h3 {
     font-size: 24px;
     color: #F9FAF8;
@@ -30,10 +35,26 @@ h2 {
     color: #1F2937;
 }
 
+.cta {
+    background-color: #3882F6;
+}
+
 .cta1, .cta2 {
     color: #F9FAF8;
 }
 
 .cta1 {
     font-size: 18px;
+}
+
+.hero, .footer{
+    background-color: #1F2937;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.footer {
+    color: #F9FAF8;
 }
