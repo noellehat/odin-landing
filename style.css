@@ -8,6 +8,7 @@ body {
 
 ul {
     list-style: none;
+    display: flex;
 }
 
 a {
@@ -33,6 +34,7 @@ h1 {
 
 .header {
     display: flex;
+    justify-content: space-between;
 }
 
 .title2 {
@@ -74,6 +76,7 @@ h2 {
 
 .footer {
     color: #F9FAF8;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
