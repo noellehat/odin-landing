@@ -29,6 +29,7 @@ button {
     border-color: #3882F6;
     border-radius: 10px;
     font-weight: bold;
+    max-width: 1.5em;
 }
 
 .signup2 {
@@ -63,10 +64,21 @@ h3 {
     align-items: center;
 }
 
+.titlebox {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 0.5em;
+}
+
+.signup1 {
+    max-width: 100%;
+    align-self: start;
+}
+
 .titletext {
     display: flex;
     flex-flow: column nowrap;
-    justify-content: space-evenly;
+    gap: 5em;
 }
 
 .kessokubox {
