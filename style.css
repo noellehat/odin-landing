@@ -100,6 +100,8 @@ h2 {
 
 .cta {
     background-color: #3882F6;
+    display: flex;
+    padding: 0 5em;
 }
 
 .cta1, .cta2 {
@@ -115,8 +117,16 @@ h2 {
 }
 
 .quote {
+    display: flex;
+    flex-flow: row wrap;
     background-color: #E5E7EB;
-    padding: 5em 5em;
+    gap: 1em;
+    padding: 5em 8em;
+    justify-content: space-between;
+}
+
+.quoteauthor {
+    align-self: center;
 }
 
 .footer {
